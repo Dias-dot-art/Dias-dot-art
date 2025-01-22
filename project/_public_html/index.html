@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241118195513">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__lang-switcher lang-switcher">
+					<button id="btn-kz" class="lang-switcher__btn lang-switcher__btn--kz">Қаз</button>
+					<button id="btn-ru" class="lang-switcher__btn lang-switcher__btn--ru">Рус</button>
+				</div>
+				<div class="header__social social">
+					<a href="https://www.instagram.com/lunara.katpayeva/" target="_blank" class="social__link">
+						<img src="img/header/insta.svg" alt="Instagram logotype">
+					</a>
+					<a href="https://www.youtube.com/@katpayeva.lunara" target="_blank" class="social__link">
+						<img src="img/header/youtube.svg" alt="YouTube logotype">
+					</a>
+					<a href="https://www.tiktok.com/@zulfiyakatpayeva" target="_blank" class="social__link">
+						<img src="img/header/tiktok.svg" alt="TikTok logotype">
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__header-block">
+						<div class="hero__content">
+							<h1 class="hero__title">
+								<span id="audioLessons" class="hero__audio"></span>
+								<span id="heroTitle"></span>
+								<a href="#myForm" class="hero__button button" id="btn"></a>
+							</h1>
+						</div>
+						<div class="hero__why-me why-me">
+							<p class="why-me__text" id="forThoseWho"></p>
+							<h2 class="why-me__title" id="canI"></h2>
+						</div>
+					</div>
+					<p class="hero__desc"><strong id="learnAboutStrong"></strong> <span id="learnAbout"></span></p>
+					<div class="hero__footer">
+						<div class="hero__quote">
+							<blockquote id="coachingQuote"></blockquote>
+							<div id="authorQuote"></div>
+						</div>
+						<div class="hero__img">
+							<img src="img/hero_section/photo.webp" alt="Coacher Photo.">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<div class="services__item">
+						<div class="services__header">
+							<div class="services__label"><span id="servicesQuestion1"></span> <span id="servicesQuestion1Highlighted"></span></div>
+							<h3 class="services__title" id="onlyСoach"></h3>
+						</div>
+						<div class="services__body">
+							<h4 class="services__subtitle" id="butOneProblem"></h4>
+							<p class="services__text"><span id="problemDescription"></span> <span id="problemDescriptionHighlighted"></span></p>
+							<div class="services__image">
+								<img src="img/services/services_photo.webp" alt="Image">
+							</div>
+						</div>
+					</div>
+					<div class="services__item">
+						<div class="services__coach-help coach-help">
+							<div class="coach-help__label"><span class="coach-help__up-label" id="coachWord"> </span><span id="coachHelp"></span></div>
+							<p class="coach-help__text" id="coachHelpText"></p>
+						</div>
+						<ul class="services__list">
+							<li class="services__item-list" id="servicesListItem1"></li>
+							<li class="services__item-list" id="servicesListItem2"></li>
+							<li class="services__item-list" id="servicesListItem3"></li>
+							<li class="services__item-list" id="servicesListItem4"></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="page__about-me about-me">
+				<div class="about-me__container">
+					<div class="about-me__header">
+						<p class="about-me__content">
+							<span id="ifYou1"></span><span id="ifYou2"></span><span id="ifYou3"></span>
+						</p>
+						<ul class="about-me__list">
+							<li class="about-me__item-list"><span id="canIdo"></span><span id="canIdoHighlighted"></span></li>
+							<li class="about-me__item-list"><span id="whatGiveHighlighted"></span> <span id="whatGive"></span></li>
+							<li class="about-me__item-list"><span id="whyItHighlighted"></span> <span id="whyIt"></span></li>
+							<li class="about-me__item-list"><span id="howCanHighlighted"></span> <span id="howCan"></span></li>
+						</ul>
+					</div>
+					<div class="about-me__body">
+						<div class="about-me__label" id="theMain"></div>
+						<p class="about-me__question" id="forWhat"></p>
+						<h2 class="about-me__title" id="getAnswer"></h2>
+						<div class="about-me__arrows">
+							<img src="img/about_me/arrows_icon.webp" alt="Arrows icon">
+						</div>
+					</div>
+					<div class="about-me__info info-about-me">
+						<div class="info-about-me__img">
+							<img src="img/about_me/my_photo.webp" alt="Coach photo">
+						</div>
+						<div class="info-about-me__content">
+							<h2 class="info-about-me__title"><span id="authorLu1"></span><span id="authorLu2"></span></h2>
+							<ul class="info-about-me__list">
+								<li class="info-about-me__item-list" id="lessThan"></li>
+								<li class="info-about-me__item-list" id="worksWith"></li>
+								<li class="info-about-me__item-list" id="createdThis"></li>
+								<li class="info-about-me__item-list" id="authorOf"></li>
+								<li class="info-about-me__item-list" id="sheIsa"></li>
+							</ul>
+							<div class="info-about-me__button"><a href="#myForm" class="button button--green" id="buttonGetAccess"></a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__for-whom">
+				<div class="for-whom__container">
+					<div class="for-whom__title"><span id="forWhomTitle"></span> <span id="forWhomTitleHighlighted"></span></div>
+					<div class="for-whom__items">
+						<div class="for-whom__item item-for-whom">
+							<div class="item-for-whom__icon">
+								<img src="img/for_whom/education_icon.svg" alt="Education Icon">
+							</div>
+							<h3 class="item-for-whom__title" id="forWhomItemTitle1"></h3>
+							<p class="item-for-whom__text" id="forWhomItemText1"></p>
+						</div>
+						<div class="for-whom__item item-for-whom">
+							<div class="item-for-whom__icon">
+								<img src="img/for_whom/psychology_icon.svg" alt="Experts Icon">
+							</div>
+							<h3 class="item-for-whom__title" id="forWhomItemTitle2"></h3>
+							<p class="item-for-whom__text" id="forWhomItemText2"></p>
+						</div>
+						<div class="for-whom__item item-for-whom">
+							<div class="item-for-whom__icon">
+								<img src="img/for_whom/experts_icon.webp" alt="Education Icon">
+							</div>
+							<h3 class="item-for-whom__title" id="forWhomItemTitle3"></h3>
+							<p class="item-for-whom__text" id="forWhomItemText3"></p>
+						</div>
+					</div>
+					<div class="for-whom__body">
+						<div class="for-whom__img">
+							<img src="img/for_whom/coach_photo.webp" alt="Coach photo">
+						</div>
+						<div class="for-whom__content">
+							<blockquote class="for-whom__quote">
+								<span id="forWhomQuote">
+								</span>
+								<span id="forWhomQuoteHighlighted"></span>
+							</blockquote>
+							<div class="for-whom__author" id="forWhomAuthor"></div>
+							<div class="for-whom__position" id="forWhomAuthorPosition"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__you-received you-received">
+				<div class="you-received__container">
+					<h2 class="you-received__title"><span id="youReceivedTitle"></span> <span id="youReceivedTitleHighlighted"></span></h2>
+					<p class="you-received__text" id="youReceivedText"></p>
+					<div class="you-received__items">
+						<div class="you-received__item item-you-received">
+							<div class="item-you-received__icon">
+								<img src="img/you_received/one_icon.webp" alt="Number One Icon">
+							</div>
+							<p class="item-you-received__text" id="youReceivedItemText1"></p>
+						</div>
+						<div class="you-received__item item-you-received">
+							<div class="item-you-received__icon">
+								<img src="img/you_received/two_icon.webp" alt="Number Two Icon">
+							</div>
+							<p class="item-you-received__text" id="youReceivedItemText2"></p>
+						</div>
+						<div class="you-received__item item-you-received">
+							<div class="item-you-received__icon">
+								<img src="img/you_received/three_icon.webp" alt="Number Three Icon">
+							</div>
+							<p class="item-you-received__text" id="youReceivedItemText3"></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__guide guide">
+				<div class="guide__container">
+					<p class="guide__text" id="guideText"></p>
+					<h2 class="guide__title"><span id="guideTitle"></span><span id="guideTitleHighlighted"></span></h2>
+					<div class="guide__timeline timeline">
+						<div class="timeline__item">
+							<div class="timeline__number">1</div>
+							<div class="timeline__content">
+								<h3 class="timeline__title" id="timelineTitle1"></h3>
+								<p class="timeline__text" id="timelineText1"></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__number">2</div>
+							<div class="timeline__content">
+								<h3 class="timeline__title" id="timelineTitle2"></h3>
+								<p class="timeline__text" id="timelineText2"></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__number">3</div>
+							<div class="timeline__content">
+								<h3 class="timeline__title" id="timelineTitle3"></h3>
+								<p class="timeline__text" id="timelineText3"></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__number">4</div>
+							<div class="timeline__content">
+								<h3 class="timeline__title" id="timelineTitle4"></h3>
+								<p class="timeline__text" id="timelineText4"></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__number">5</div>
+							<div class="timeline__content">
+								<h3 class="timeline__title" id="timelineTitle5"></h3>
+								<p class="timeline__text" id="timelineText5"></p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__number">6</div>
+							<div class="timeline__content">
+								<h3 class="timeline__title" id="timelineTitle6"></h3>
+								<p class="timeline__text" id="timelineText6"></p>
+							</div>
+						</div>
+					</div>
+					<div class="guide__btn"><a href="#myForm" class="button button--green" id="learnMoreBtn"></a></div>
+				</div>
+			</section>
+			<section class="page__reviews reviews">
+				<div class="reviews__container">
+					<h2 class="reviews__title" id="reviewsTitle"></h2>
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide">
+								<img src="img\reviews\new_feed_1.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img/reviews/new_feed_2.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img/reviews/new_feed_3.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img/reviews/new_feed_4.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img/reviews/new_feed_5.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img/reviews/new_feed_6.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img/reviews/new_feed_7.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img\reviews\new_feed_8.webp" alt="Image">
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<img src="img/reviews/new_feed_9.webp" alt="Image">
+							</div>
+						</div>
+						<button type="button" class="swiper-button-prev">&#60;</button>
+						<button type="button" class="swiper-button-next">&#62;</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__attention attention">
+				<div class="attention__container">
+					<h2 class="attention__title" id="attentionTitle"></h2>
+					<p class="attention__text" id="attentionText"></p>
+					<div class="attention__mission">
+						<span id="ourMission1"></span> <span id="ourMissionHighlighted"></span> <span id="ourMission2"></span>
+					</div>
+				</div>
+			</section>
+			<section class="page__contact-us contact-us">
+				<div class="contact-us__container">
+					<div class="contact-us__content">
+						<p class="contact-us__text" id="contactUsText"></p>
+						<div class="contact-us__img">
+							<img src="img/form/phone.webp" alt="Phone image">
+						</div>
+					</div>
+					<div class="contact-us__form">
+						<p class="contact-us__header"><span id="formText"></span> <span id="formQuestion"></span></p>
+						<h2 class="contact-us__title" id="freeText"></h2>
+						<form class="form" id="myForm">
+							<input type="text" name="username" placeholder="" class="input" id="formUsername" required>
+							<input type="email" name="email" placeholder="" class="input" id="formEmail" required>
+							<input type="tel" name="phone" placeholder="" class="input" id="formPhone" required>
+							<div class="textarea">
+								<label for="yourMessage" id="formTextarea"></label>
+								<textarea name="message" id="yourMessage"></textarea>
+							</div>
+							<div class="checkbox">
+								<input type="checkbox" name="agreement" id="formAgree" required>
+								<label for="formAgree"><span id="formAgreeText"></span>
+									<a href="#privacyPolicyText" id="formAgreePolicy"></a></label>
+							</div>
+							<button type="submit" class="button button--green" id="formSubmitButton"></button>
+						</form>
+						<div class="popup" id="popup">
+							<div class="popup__content">
+								<span class="popup__close" onclick="closePopup()">&times;</span>
+								<h2 class="popup__title" id="popupTitle"></h2>
+								<p class="popup__text" id="popupText"></p>
+								<a href="https://www.youtube.com/watch?v=jWDDumZaEJQ" target="_blank" class="popup__link" id="popupLink"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<img src="img/footer/academy_logo.svg" alt="Our academy logotype">
+				</div>
+				<div class="footer__copy">
+					<p id="footerCopy"></p>
+					<p id="policyText"></p>
+				</div>
+				<div class="footer__policy">
+					<a href="#" target="_blank" id="publicOfferText"></a>
+					<a href="#" target="_blank" id="privacyPolicyText"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241118195513"></script>
+</body>
+
+</html>
